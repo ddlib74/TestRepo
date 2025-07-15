@@ -13,7 +13,16 @@ class OaipmhServerdave{
 	private $countItemsdave;
 	private $getUntildave;
 	private $getFromdave;
+	
+// readme file
 
+//	return [
+//       'ClientId' => '',
+//       'ClientSecret' => '',
+//        'Url' => ''
+//	       ];
+
+// index.php file
 
 	// List returned records
 	// private function ListRecords($settings){
