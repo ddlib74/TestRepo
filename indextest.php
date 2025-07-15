@@ -13,3 +13,11 @@ class OaipmhServerdave{
 	private $countItemsdave;
 	private $getUntildave;
 	private $getFromdave;
+
+
+	// List returned records
+	// private function ListRecords($settings){
+		// Set auth method and credential to access SharePoint Online
+		// $credentials = new ClientCredential($settings['ClientId'], $settings['ClientSecret']);
+		// $siteUrl = $settings['Url'] . "/sites/taughtthesis";
+		// $ctx = (new ClientContext($siteUrl))->withCredentials($credentials);  
