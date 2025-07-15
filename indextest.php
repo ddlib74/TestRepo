@@ -1,0 +1,15 @@
+<?php
+
+require_once __DIR__ . '/vendor/daveautoload.php';
+
+use Office365dave\Runtime\Auth\ClientCredential;
+use Office365dave\SharePoint\ClientContext;
+
+class OaipmhServerdave{
+	private string $requestTemplateFiledave;
+	private $getMetadataPrefixdave;
+	private array $settingsdave; 
+	private $responseDatedave;
+	private $countItemsdave;
+	private $getUntildave;
+	private $getFromdave;
